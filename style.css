@@ -7,3 +7,173 @@
 html {
   font-size: 62.5%;
 }
+
+main {
+  height: 100vh;
+  width: 100%;
+  background: #2e2e36;
+}
+
+/* NAV Sectino */
+.nav-wrapper {
+  height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Design */
+.logo {
+  height: 10vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 32px;
+  width: 32px;
+}
+
+.logo h1 {
+  color: #fff;
+  font-family: fantasy;
+  padding-left: 1rem;
+}
+
+/* Links Design */
+.links {
+  height: 10vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fbfbfb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO DESIGN */
+.hero {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+}
+
+/* LEFT SIDE */
+.image-left-side {
+  height: 80%;
+  width: 40%;
+  margin: auto;
+}
+
+.image-left-side img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Right Side Design */
+.text-right-side {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-right-side > h1 {
+  font-size: 4rem;
+  color: #fbfbfb;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 5rem;
+  margin-top: 10rem;
+}
+
+.descript p {
+  margin: 4rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #d2d2d4;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+/* Buttons Design */
+.buttons-section {
+  height: 6rem;
+  width: 38rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 100%;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-1 {
+  background: #01bc9a;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.btn-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+/* Icons Design */
+.icons-section {
+  margin: 3rem 0;
+  height: 12rem;
+  width: 35rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.icon img {
+  height: 24px;
+  width: 24px;
+  filter: brightness(0.5);
+}
+
+.icon p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  padding-left: 0.5rem;
+  color: #fff;
+}
